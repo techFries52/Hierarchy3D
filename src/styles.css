@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+}
+
+.viewer {
+    height:94vh;
+    width: 100vw;    
+    margin: none;
+}
+
+
+.loki {    
+    background-color: rgb(102, 102, 102);
+}

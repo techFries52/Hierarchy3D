@@ -1,0 +1,28 @@
+.legend{    
+    --aug-inlay-bg: rgba(0, 255, 255, 0.247);
+    --aug-border-bg: rgb(0, 255, 255);
+    z-index: 1;
+    color: rgb(0, 255, 255);
+}
+
+.legendCont{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.legendList{
+    padding: 10px;
+    padding-bottom: 40px;
+    list-style: none;
+}
+
+.listElement{
+    padding-left: 0px;
+}
+
+.margt{
+    padding-top: 20px;
+}
