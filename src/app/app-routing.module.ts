@@ -8,7 +8,7 @@ const routes: Routes = [
   {path: 'Collection', component: CollectionHierarchyComponent},
   {path: 'Map', component: MapHierarchyComponent},
   {path: 'Servlet', component: ServletHierarchyComponent},
-  {path: 'Colle', component: CollectionHierarchyComponent},
+  {path: '', component: CollectionHierarchyComponent},
 ];
 
 @NgModule({
@@ -16,3 +16,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
