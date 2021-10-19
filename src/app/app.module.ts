@@ -9,6 +9,7 @@ import { CollectionHierarchyComponent } from './collection-hierarchy/collection-
 import { MapHierarchyComponent } from './map-hierarchy/map-hierarchy.component';
 import { ServletHierarchyComponent } from './servlet-hierarchy/servlet-hierarchy.component';
 import { LegendComponent } from './legend/legend.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LegendComponent } from './legend/legend.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
 
   ],
   providers: [],
