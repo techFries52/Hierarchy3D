@@ -10,6 +10,7 @@ import { MapHierarchyComponent } from './map-hierarchy/map-hierarchy.component';
 import { ServletHierarchyComponent } from './servlet-hierarchy/servlet-hierarchy.component';
 import { LegendComponent } from './legend/legend.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CollectionFrameworkComponent } from './collection-framework/collection-framework.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CollectionHierarchyComponent,
     MapHierarchyComponent,
     ServletHierarchyComponent,
-    LegendComponent
+    LegendComponent,
+    CollectionFrameworkComponent
   ],
   imports: [
     BrowserModule,
